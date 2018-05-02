@@ -29,6 +29,7 @@ class String
   end
 
   def count_sentences
+    counter = 0
     newarray = []
     newarray = self.split(" ")
     newarray.each do | words |
