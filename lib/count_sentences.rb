@@ -33,7 +33,7 @@ class String
     newarray = []
     newarray = self.split(" ")
     newarray.each do | words |
-      if words[-1] == "." || words[-1] == "!" || words == "?"
+      if words[-1] == "." || words[-1] == "!" || words [-1]== "?"
         then counter +=1
       end
     end
