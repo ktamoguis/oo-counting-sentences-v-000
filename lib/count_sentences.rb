@@ -32,6 +32,7 @@ class String
     counter = 0
     newarray = []
     newarray = self.split(" ")
+    binding.pry
     newarray.each do | words |
       if words[-1] == "." || words[-1] == "?"
         then counter +=1
