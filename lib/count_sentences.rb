@@ -5,7 +5,7 @@ class String
   attr_accessor :string
 
   def sentence?
-    if self[-1]] == (".")
+    if self.string[-1]] == (".")
       true
     else
       false
