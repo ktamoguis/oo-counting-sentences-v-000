@@ -2,6 +2,7 @@ require 'pry'
 
 class String
 
+  attr_accessor :string
 
   def sentence?
     if self[-1] == (".")
