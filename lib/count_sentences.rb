@@ -29,7 +29,14 @@ class String
   end
 
   def count_sentences
-    self.scan(/[.?]/).count
+    newarray = []
+    newarray = self.split(" ")
+    newarray.each do | words |
+      if words[-1] == "." || words[-1] == "?"
+        then counter +=1
+      end
+    end
+    counter
   end
 
 end
